@@ -19,4 +19,18 @@ for (const name of heights3) {
 console.log("The smallest name is : ", smallestName);
 
 
+// Task-3:
+// Your task is to calculate the total budget required to buy electronics:
+
+//     laptop = 35000 tk
+//     tablet = 15000 tk
+//     mobile = 20000 tk
+// Write a JavaScript function named calculateElectronicsBudget that takes in the number of laptop, tablets, and mobile and returns the total money required.
+
+function calculateElectronicsBudget(item1, item2, item3) {
+    const total_price = item1 + item2 + item3;
+    return total_price;
+}
+let price = calculateElectronicsBudget(35000, 15000, 20000);
+console.log("The total price is : ", price);
 
